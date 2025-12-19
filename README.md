@@ -26,15 +26,12 @@
 
 ## ✨ Features
 
-- **🚀 Smart Detection**: Automatically detects when you launch 2XKO (Lion.exe).
+- **🚀 Smart Detection**: Automatically detects when you launch 2XKO.
 - **👤 Nickname Integration**: Displays your In-Game Name on the presence tooltip.
 - **🎮 Real-Time States**: Accurate tracking of your game status:
   - 🏠 **Main Menu**
   - 👥 **Lobby**
   - ⚔️ **In Fight**
-  - 🎭 **Character Select**
-  - ⏳ **Loading Screen**
-- **🖼️ High-Quality Assets**: Crisp, high-resolution icons for a premium look.
 
 ## 🛠️ How it works
 
