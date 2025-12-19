@@ -17,7 +17,6 @@
 <br/><br/>
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Discord](https://img.shields.io/badge/Discord-Rich%20Presence-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
 
 **Zero-configuration Rich Presence for the new Riot Games fighting game, 2XKO.**
 
