@@ -1,0 +1,26 @@
+from ...config.app_config import Config
+
+def presence(rpc, game_running=False, elapsed_time=None, nickname=None, **kwargs):
+    texts = Config.get_value("texts")
+    show_elapsed = Config.get_value("show_elapsed_time")
+    
+    small_image = "game_icon"
+    small_text = "In Menu"
+    
+    if nickname:
+        small_image = "riotgames-2xko"
+        small_text = nickname
+    
+    update_args = {
+        "state": "Main Menu",
+        "details": "2XKO - Tag Team Fighting",
+        "large_image": "game_icon",
+        "large_text": "2XKO by Riot Games",
+        "small_image": small_image,
+        "small_text": small_text
+    }
+    
+    if show_elapsed and elapsed_time:
+        update_args["start"] = elapsed_time
+    
+    rpc.update(**update_args)

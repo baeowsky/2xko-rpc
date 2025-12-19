@@ -1,0 +1,6 @@
+pypresence
+pystray
+psutil
+Pillow
+cursor
+InquirerPy
